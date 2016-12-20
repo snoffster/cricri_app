@@ -3,5 +3,6 @@ class ApplicationController < ActionController::Base
 
   def hello
     render html: "Welcome to FunLand"
+
   end
 end
